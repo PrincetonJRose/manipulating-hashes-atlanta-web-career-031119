@@ -16,9 +16,8 @@ def first_challenge
   #your code here
   contacts.each do |name, info|
     info.each do |type, data|
-      if info == :favorite_icecream_flavors
-        puts data
-      end
+      if type == :favorite_icecream_flavors
+        puts type
     end
   end
 
