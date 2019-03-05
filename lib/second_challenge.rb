@@ -12,6 +12,6 @@ def second_challenge
     buying.push(type.values)
   end
   buying
-  
+
 
 end
