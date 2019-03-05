@@ -9,7 +9,7 @@ def second_challenge
   #code your solution here!
   buying = []
   buying.push(groceries.values)
-  buying
+  buying.flatten
 
 
 end
