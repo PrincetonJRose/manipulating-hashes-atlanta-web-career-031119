@@ -7,7 +7,11 @@ def second_challenge
   }
 
   #code your solution here!
-
+  buying = []
+  groceries.each do |type, food|
+    buying.push(type.values)
+  end
+  buying
   
 
 end
