@@ -18,7 +18,6 @@ def first_challenge
     info.each do |type, data|
       if data == :favorite_icecream_flavors
         puts data
-        end
       end
     end
   end
