@@ -19,6 +19,7 @@ def first_challenge
       data.each do |stuff|
         if data == :favorite_icecream_flavors
           stuff.delete("strawberry")
+        end
       end
     end
   end
