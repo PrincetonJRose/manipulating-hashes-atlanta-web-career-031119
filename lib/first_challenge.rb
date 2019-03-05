@@ -18,6 +18,7 @@ def first_challenge
     info.each do |type, data|
       if type == :favorite_icecream_flavors
         puts type
+      end
     end
   end
 
